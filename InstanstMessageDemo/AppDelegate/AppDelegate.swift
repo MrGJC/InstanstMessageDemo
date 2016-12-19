@@ -20,7 +20,6 @@ class AppDelegate: UIResponder {
         NIM.register(withAppID: NIM_APPKEY, cerName: NIM_CERNAME)
         Log.e("NIMSDK version = \(NIM.sdkVersion())")
     }
-    
 }
 
 // MARK: - UIApplicationDelegate
